@@ -1,0 +1,42 @@
+# Generated drama content
+.drama-state.json
+creative-plan.md
+characters.md
+episode-directory.md
+compliance-report.md
+episodes/
+export/
+
+# Generated media and visual prompts
+assets/
+visuals/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.svg
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Core sources are published only inside the encrypted archive
+.agents/
+AGENTS.md
+skills-lock.json
+
+# Credentials and local configuration
+.env
+.env.*
+*.credentials
+.dreamina/
+.kling/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
